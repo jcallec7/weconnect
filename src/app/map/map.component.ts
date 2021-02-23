@@ -24,7 +24,7 @@ export class MapComponent implements OnInit {
   };
 
 
-  /*onMapReady(map) {
+  onMapReady(map:any) {
 
     var circle = L.circle([-3.25861, -79.96053], {
       color: 'red',
@@ -42,7 +42,7 @@ export class MapComponent implements OnInit {
     }).addTo(map);
     circle.bindPopup("reclamos: 5");
 
-  }*/
+  }
 
   ngOnInit(): void {
   }
