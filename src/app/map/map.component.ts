@@ -14,13 +14,12 @@ export class MapComponent implements OnInit {
   optionsMap = {
     layers: [
       L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 18,
+        maxZoom: 15,
         attribution: ""
       })
     ],
-
     zoom: 12,
-    center: L.latLng(-3.25861, -79.96053)
+    center: L.latLng(-2.90055, -79.00453)
   };
 
 

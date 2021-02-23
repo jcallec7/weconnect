@@ -1,6 +1,25 @@
-<div style="display: block; width: 100%; height:10% !important">
-    <div style="height: 50vh; " leaflet [leafletOptions]="optionsMap"
-        (leafletMapReady)="onMapReady($event)">
+<div class="row">
+
+
+    <div class="div.col-xl-8 col-lg-7">
+
+        <div class="card shadow mb-4">
+
+            <div class="card-body">
+
+                <!-- <highcharts-chart #chart [Highcharts]="Highcharts" [options]="optionsGauge1" [(update)]="update" style="width: 100%; height: 25vh; display: block;"></highcharts-chart> -->
+                <div style="display: block; width: 100%; height:10% !important">
+                    <div style="height: 50vh; " leaflet [leafletOptions]="optionsMap"
+                        >
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
     </div>
 </div>
-
